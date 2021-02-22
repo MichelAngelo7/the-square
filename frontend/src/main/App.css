@@ -1,0 +1,18 @@
+.app {
+    margin: 0px;
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-template-rows:
+        200px
+        1fr
+        200px;
+    grid-template-areas:
+        "logo header"
+        "menu content"
+        "menu footer";
+   height: 100vh;
+}
+
+aside.menu-area {
+    grid-area: menu;
+}
