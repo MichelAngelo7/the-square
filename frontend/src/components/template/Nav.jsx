@@ -4,8 +4,8 @@ import React from 'react'
 import Links from './Links'
 
 export default props =>
-    <div className="menu-area">
-        <nav className="menu">
+    <nav className="menu-area">
+        <div className="menu">
             <Links />
-        </nav>
-    </div>
+        </div>
+    </nav>

@@ -1,4 +1,7 @@
-div.menu-area{
+nav.menu-area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     box-shadow:
         2px 0 10px 0 rgba(0, 0, 0, 0.12),
         2px 0 10px 0 rgba(0, 0, 0, 0.09);
@@ -9,12 +12,19 @@ div.menu-area{
     text-decoration: none;
     color:#000;
     font-weight: 300;
-    padding: 15px;
+    padding-left: 15px;
     opacity: 0.4;
-
 }
 
 .menu a:hover{
    background: linear-gradient(135deg, #abbaab 0%, #222 100%);
    color: #000; 
+}
+
+hr {
+    border-width: 2px;
+    width:50%;    
+    margin-left: 16px;
+    margin-top: 8px;
+    margin-bottom: 8px;
 }

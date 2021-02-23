@@ -1,9 +1,9 @@
+import './Links.css'
 import React from 'react'
 import { Link } from 'react-router-dom'
 
 export default props =>
     <React.Fragment>
-        <hr />
         <Link to='/'>
             <i className="fa fa-home fa-2x"></i>
         </Link>
@@ -31,6 +31,5 @@ export default props =>
         <Link to="#">
             <i className="fa fa-address-card-o fa-2x"></i>
         </Link>
-        <hr />
     </React.Fragment>
 

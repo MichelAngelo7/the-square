@@ -24,9 +24,9 @@
         1fr
         var(--footer-height);
     grid-template-areas:
-        "menu header"
+        "header header"
         "menu content"
-        "menu footer";
+        "footer footer";
    height: 100vh;
    background-color: #f6f6f6;
 }
@@ -40,7 +40,7 @@ header.header{
 
 }
 
-aside.menu-area {
+nav.menu-area {
     grid-area: menu;
 }
 
