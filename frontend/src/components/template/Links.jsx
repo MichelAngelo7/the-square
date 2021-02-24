@@ -28,7 +28,7 @@ export default props =>
             <i className="fa fa-bar-chart fa-2x"></i>
         </Link>
         <hr />
-        <Link to="#">
+        <Link to="/profile">
             <i className="fa fa-address-card-o fa-2x"></i>
         </Link>
     </React.Fragment>

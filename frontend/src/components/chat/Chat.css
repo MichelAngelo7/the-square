@@ -1,0 +1,40 @@
+img{
+    height: 150px;
+}
+
+.app {
+    margin: 0px;
+    display: grid;
+    grid-template-columns: var(--aside-width)  1fr;
+    grid-template-rows:
+        var(--header-height)
+        1fr
+        var(--footer-height);
+    grid-template-areas:
+        "header header header"
+        "menu content content"
+        "footer footer footer";
+   height: 100vh;
+   background-color: #f6f6f6;
+}
+
+aside.logo {
+    grid-area: logo;
+}
+
+header.header{
+    grid-area: header;
+
+}
+
+nav.menu-area {
+    grid-area: menu;
+}
+
+main.content {
+    grid-area: content;
+}
+
+footer.footer{
+    grid-area: footer;
+}
